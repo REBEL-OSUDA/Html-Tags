@@ -1,8 +1,7 @@
 
 # HTML Tags
 
-This project can be used by HTML beginners for learning tags and how they can be used to implement certain parts of a web page, such as a navigation bar which uses the tag <nav> with an unordered list <ul>, which has a semantic meaning as well, and is very important for navigating in a website.
-This project provides beginners with implementation of tags to create a functional webpage.
+This project can be used by HTML beginners for learning tags and how they can be used to implement certain parts of a web page, such as a navigation bar which uses the tag <nav> with an unordered list <ul>, which has a semantic meaning as well, and is very important for navigating in a website. This project provides beginners with implementation of tags to create a functional webpage.
 
 # How users can get started
 
