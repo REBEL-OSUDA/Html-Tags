@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="REBEL_OSUDA">
+    <meta name="description" content="I am revising HTML">
+    <link rel="icon" href="images/html5.png" type="image/x-icon">
+    <title>My second webpage</title>
+</head>
+<body>
+    <header>
+        <h1>My Holiday Goals!!</h1>
+        <h2 id="Primary-Navigation">Primary Navigation</h2>
+        <nav aria-labelledby="Primary-Navigation">
+            <ul>
+                <li>
+                    <a href="#HTML">I am learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">I am also planning a vacation</a>
+                </li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article id="HTML">
+            <section>
+                <h2>I am ready to learn HTML</h2>
+                <p>Let us see how ....</p>
+                <img src="images/html5.png" alt="HTML5 Logo" title="This is HTML5 Logo" loading="eager" width="300" height="300">
+                <figure>
+                    <figcaption><p><code>&lt;h1&gt; Hello World! &lt;/h1&gt;</code></p></figcaption>
+                </figure>
+            
+                <h3>My Daily Schedule</h3>
+                <p> ...I will study regularly <br> 
+                    ...I will revise daily <br>
+                    ...I will make projects weekly <br>
+                    ...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/en-US/">MDN</a></abbr>
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus libero vero aut, distinctio iusto quod excepturi ex, odio a quaerat, itaque sint exercitationem esse pariatur. Corrupti a accusantium alias ad.
+                    Corrupti, totam doloribus! Recusandae nam natus atque ratione maxime enim aspernatur officia impedit, numquam eligendi non voluptas veniam veritatis maiores rerum eum! Eaque incidunt veniam modi ab quaerat illum alias!</p>
+                    <aside>
+                        <details>
+                            <summary>Guess the numbers of hours I code?</summary>
+                            <p>I code for 3 hours every day.</p>
+                        </details> 
+                </aside>
+            </section>
+        </article>
+        <hr>
+
+        <article id="vacation">
+            <section>
+                <h2>I am planning a vacation</h2>
+                <ul>
+                    <li><p>I have heard great things about New York.</p>
+                        <figure>
+                            <img src="images\New York.png" alt="New York" title="This is New York" width="450" height="350" loading="lazy">
+                            <figcaption>This is New york.</figcaption>
+                        </figure>
+                    </li>
+                    
+                    <li><p>I would like to visit beach.</p>
+                    <figure>
+                        <img src="images/beach.png" alt="Beach" width="450" height="350" loading="lazy">
+                        <figcaption>This is a Beach.</figcaption>
+                    </figure>
+                </li>
+                </ul>
+        </section>
+            <section>
+                <h3>Places I want to avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I would'nt want to visit someplace very cold.</dd>
+                    
+                    <dt>Deserts</dt>
+                    <dd>Also I would'nt want to visit someplace too hot</dd>
+                </dl>
+            </section>
+        </article>
+        <hr>
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://httpbin.org" method="get">
+                <fieldset>
+                    <legend><h2>Personal Information</h2></legend>
+                    <p>
+                        <label for="firstName">First Name:&nbsp;</label>
+                        <input type="text" name="First Name" id="firstName"  placeholder="Enter your First Name" required>
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name:&nbsp;</label>
+                        <input type="text" name="Last Name" id="lastName" placeholder="Enter your Last Name">
+                    </p>
+                    <p>
+                        <label for="password">Password&nbsp;</label>
+                        <input type="password" name="Password" id="password" required placeholder="PassWord">
+                    </p>
+                    <p>
+                        <label for="age">Age&nbsp;</label>
+                        <input type="number" name="age" id="age" required placeholder="Age"
+                        min="18" max="100" step="1">
+                    </p>
+                    <p>
+                        <label for="favourite coffee">Favourite Coffee:&nbsp;</label>
+                        <select name="favourite coffee" id="favourite coffee">
+                            <optgroup label="Standard">
+                                <option value="Regular Coffee">Regular coffee</option>
+                                <option value="Iced Coffee">Iced coffee</option>
+                            </optgroup>
+                            <optgroup label="Exotic">
+                                <option value="cappuchino">cappuchino</option>
+                            </optgroup>
+                            <option value="others">Others</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>What is your favourite food?</h2></legend>
+                    <input type="radio" name="food" id="tacos">
+                    <label for="tacos">Tacos</label>
+                    <input type="radio" name="food" id="pizza">
+                    <label for="pizza">Pizza</label>
+                    <input type="radio" name="food" id="burger">
+                    <label for="burger">Burger</label>
+                    <input type="radio" name="food" id="other">
+                    <label for="other">Others</label>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>What is your pet?</h2></legend>
+                    <p>
+                        <input type="checkbox" name="pets" id="dog">
+                        <label for="dog">Dogs</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="cat">
+                        <label for="cat">Cats</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="reptile">
+                        <label for="reptile">Reptiles</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="other">
+                        <label for="other">Others</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend><h2>Send me a Message</h2></legend>
+                        <label for="message"></label>
+                        <textarea name="message" id="message"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Submit Form</button>
+                <button type="reset">Reset Form</button>
+            </form>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>&lt;&lt;&lt; &copy; <a href="about.html">Jasskaran Singh</a> &gt;&gt;&gt;
+        </p>
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+</body>
+</html>
